@@ -16,7 +16,7 @@ We achieve this by extracting a certain multiscale convolutional dictionary from
 <br/><br/>
 
 
-Perhaps surprisingly, we show that the reduced, task-driven dictionary model perform comparably to the classic U-Net! The table below showcases their performance (in PSNR) on two major CT and MRI benchmarks: 
+Perhaps surprisingly, we show that the reduced, task-driven dictionary model performs comparably to the classic U-Net! The table below showcases their performance (in PSNR) on two major CT and MRI benchmarks: 
 
 <div align="center">
 
@@ -31,7 +31,7 @@ Perhaps surprisingly, we show that the reduced, task-driven dictionary model per
 <br/><br/>
 
 
-Beyond its strong empirical performance, the derived ISTA U-Net is favorably interpretable: It consists two modules with well-understood, local objective functions, one implementing sparse coding and the other dictionary-based synthesis. 
+Beyond its strong empirical performance, the derived ISTA U-Net is favorably interpretable: It consists of two modules with well-understood, local objective functions, one implementing sparse coding and the other dictionary-based synthesis. 
 
 
 ## Installation
@@ -45,4 +45,4 @@ Code was tested on
 
 ## Usage
 
-We train ISTA U-Net using python scripts in the folder `train_src`. Jupyter notebooks in the folder `notebooks` are used to evaluate and visualize model performance.
+We trained ISTA U-Net using python scripts in the folder `train_src`. Jupyter notebooks in the folder `notebooks` were used to evaluate and visualize model performance.
