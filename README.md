@@ -2,7 +2,7 @@
 
 **Authors:** Tianlin Liu, Anadi Chaman, David Belius, and Ivan Dokmanić
 
-This repository contains code to reproduce the experiments of our "Interpreting U-Nets via Task-Driven Multiscale Dictionary Learning".
+This repository contains code to reproduce the experiments of our paper "Interpreting U-Nets via Task-Driven Multiscale Dictionary Learning".
 
 ## Description
 Why have U-Nets been so successful in solving imaging inverse problems? In an effort to understand this, we show that one can reduce a U-Net to a tractable, well-understood sparsity-driven dictionary model while retaining its strong empirical performance. 
